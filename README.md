@@ -76,13 +76,13 @@ O Sistema se encontra no heroku, já com alguns dados adicionados.
   https://challegejr-backend.herokuapp.com/api/v1/posts?category_name=categoriaat
 
 3. Listar data/hora, retorna valores antes da data/hora que foi buscada - 
-  https://challegejr-backend.herokuapp.com/api/v1/posts?posted_after=2021-03-09 17:04:44
+  https://challegejr-backend.herokuapp.com/api/v1/posts?posted_after=2021-03-09&17:04:44
 
 4. Listar data/hora, retorna valores depois da data/hora que foi buscada - 
-  https://challegejr-backend.herokuapp.com/api/v1/posts?posted_after=2021-03-09 17:04:44
+  https://challegejr-backend.herokuapp.com/api/v1/posts?posted_after=2021-03-09&17:04:44
 
 5. Listar data/hora, retorna valores que estariam entre as datas que foram inseridas -
-  https://challegejr-backend.herokuapp.com/api/v1/posts?posted_before=2021-03-11 17:04:44&posted_after=2021-03-05 12:04:44
+  https://challegejr-backend.herokuapp.com/api/v1/posts?posted_before=2021-03-11&17:04:44&posted_after=2021-03-05&12:04:44
 
 
 
