@@ -35,7 +35,7 @@ O Sistema se encontra no heroku, já com alguns dados adicionados.
    "posted_at": "2021-03-08 14:10:41",
    "category_id":"2"
 }'
-5. Deletar post -  https://challegejr-backend.herokuapp.com/api/v1/posts/:id
+5. Deletar post - https://challegejr-backend.herokuapp.com/api/v1/posts/:id (DELETE)
 
 6. Listar categories - https://challegejr-backend.herokuapp.com/api/v1/categories
 
@@ -59,7 +59,7 @@ O Sistema se encontra no heroku, já com alguns dados adicionados.
    "name":"CategoriaAtualizada2"
 }'
 
-10. Deletar category -  https://challegejr-backend.herokuapp.com/api/v1/categories/:id
+10. Deletar category - https://challegejr-backend.herokuapp.com/api/v1/categories/:id (DELETE)
 
 ### Listagem dos Filtros
 
