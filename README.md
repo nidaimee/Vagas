@@ -1,15 +1,15 @@
 ## Teste: desafio Back-end
 
-- Banco de Dados: Postgresql
-- Ruby Version: Ruby 2.6.1p3
-- Rails Version: Rails 6.0.3.5
-- Postman 
+- [ ] Banco de Dados: Postgresql
+- [ ] Ruby Version: Ruby 2.6.1p3
+- [ ] Rails Version: Rails 6.0.3.5
+- [ ] Postman 
 
 ### Gems Usadas
 
-- rubocop (https://github.com/rubocop/rubocop)
-- rspec-rails (https://github.com/rspec/rspec-rails)
-- shoulda-matchers (https://github.com/thoughtbot/shoulda-matchers)
+- [ ] rubocop (https://github.com/rubocop/rubocop)
+- [ ] rspec-rails (https://github.com/rspec/rspec-rails)
+- [ ] shoulda-matchers (https://github.com/thoughtbot/shoulda-matchers)
 
 O Sistema se encontra no heroku, já com alguns dados adicionados.
 
@@ -81,7 +81,7 @@ O Sistema se encontra no heroku, já com alguns dados adicionados.
 4. Listar data/hora, retorna valores depois da data/hora que foi buscada - 
   https://challegejr-backend.herokuapp.com/api/v1/posts?posted_after=2021-03-09 17:04:44
 
-5. Listar data/hora, retorna valores que estariam entre as datas que foram inseridas - c
+5. Listar data/hora, retorna valores que estariam entre as datas que foram inseridas -
   https://challegejr-backend.herokuapp.com/api/v1/posts?posted_before=2021-03-11 17:04:44&posted_after=2021-03-05 12:04:44
 
 
