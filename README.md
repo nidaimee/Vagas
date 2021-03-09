@@ -5,6 +5,12 @@
 - Rails Version: Rails 6.0.3.5
 - Postman 
 
+### Gems Usadas
+
+- rubocop (https://github.com/rubocop/rubocop)
+- rspec-rails (https://github.com/rspec/rspec-rails)
+- shoulda-matchers (https://github.com/thoughtbot/shoulda-matchers)
+
 O Sistema se encontra no heroku, já com alguns dados adicionados.
 
 ### Listagem dos Endpoints
