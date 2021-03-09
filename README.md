@@ -9,7 +9,7 @@ O Sistema se encontra no heroku, já com alguns dados adicionados.
 
 ### Listagem dos Endpoints
 
-1. Listar Posts - https://challegejr-backend.herokuapp.com/api/v1/posts"
+1. Listar posts - https://challegejr-backend.herokuapp.com/api/v1/posts
 
 2. Exibir post - https://challegejr-backend.herokuapp.com/api/v1/posts/:id
 
@@ -35,18 +35,7 @@ O Sistema se encontra no heroku, já com alguns dados adicionados.
    "posted_at": "2021-03-08 14:10:41",
    "category_id":"2"
 }'
-5. Deletar post - curl -X DELETE \
-  https://challegejr-backend.herokuapp.com/api/v1/posts/4 \
-  -H 'cache-control: no-cache' \
-  -H 'content-type: application/json' \
-  -H 'postman-token: 9e60f8ce-6189-1be8-3542-e1d182b79be8' \
-  -d '{
-   "title": "LoremQuatro",
-   "body":"Loremipsulisulm",
-   "posted_at": "2021-03-08 14:10:41",
-   "category_id":"2"
-}'
-
+5. Deletar post -  https://challegejr-backend.herokuapp.com/api/v1/posts/:id
 
 6. Listar categories - https://challegejr-backend.herokuapp.com/api/v1/categories
 
@@ -60,6 +49,7 @@ O Sistema se encontra no heroku, já com alguns dados adicionados.
   -d '{
    "name":"Categoria6"
 }'
+
 9. Atualizar category - curl -X PUT \
   https://challegejr-backend.herokuapp.com/api/v1/categories/2 \
   -H 'cache-control: no-cache' \
@@ -68,14 +58,8 @@ O Sistema se encontra no heroku, já com alguns dados adicionados.
   -d '{
    "name":"CategoriaAtualizada2"
 }'
-10. Deletar category - curl -X DELETE \
-  https://challegejr-backend.herokuapp.com/api/v1/categories/7 \
-  -H 'cache-control: no-cache' \
-  -H 'content-type: application/json' \
-  -H 'postman-token: 578268e0-d050-48b7-680e-cd4c30a049c3' \
-  -d '{
-   "name":"Categoria7"
-}'
+
+10. Deletar category -  https://challegejr-backend.herokuapp.com/api/v1/categories/:id
 
 ### Listagem dos Filtros
 
