@@ -8,19 +8,21 @@ require 'rails_helper'
           expect(response).to have_http_status(200)
         end
       end
+      
       describe "POST posts#create" do
       it 'create post with valid attributes' do
-        post_params = { post: {
-          title: 'Lorem',
-          body: 'Loremipsum',
-          posted_at: '2021-03-08 14:10:41',
-          category: :category_id
-         }}
-         post '/api/v1/posts', :params => post_params.to_json, :headers => { "Content-Type": "application/json" }
-        json = JSON.parse(response.body)             
+        c = Category.create(name: "Noticia")
+        post_params = { 
+          title: 'Título',
+          body: 'LoremLorem',
+          category_id: c.id,
+          posted_at: Time.zone.now
+         }
+        post '/api/v1/posts', :params => post_params.to_json, :headers => { "Content-Type": "application/json" }
+        json = JSON.parse(response.body)
+        expect(response).to have_http_status(201)
       end
     end
-
-end
+  end
     
   
